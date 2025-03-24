@@ -9,12 +9,8 @@ Welcome to the **Mount Kenya Digital Soil Map** repository! This project focuses
 
 ## 📋 Table of Contents
 - [Overview](#overview)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Scripts](#installation)
 - [Data Description](#data-description)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -32,7 +28,7 @@ The scripts in this repository are written in R and JavaScript for [Google Earth
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Scripts
 
 To run the scripts in this repository, you'll need to have R installed on your system. Follow these steps to set up the environment:
 
@@ -59,15 +55,15 @@ To predict Soil Organic Carbon (SOC) in the Mount Kenya region the dataset was s
 - **Validation:** Data for hyperparameter tuning (10 samples).
 - **Test:** Data for final model evaluation (10 samples).
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📬 Contact
 
 For questions or feedback, feel free to reach out:
 
 - **GitHub:** [Gelsleichter](https://github.com/Gelsleichter)
 - **Email:** [gelsleichter.yuri.andrei(at)uni-mate.hu](mailto:gelsleichter.yuri.andrei@uni-mate.hu)
+
+---
+
+## 📜 License
+
+Free to use and distribute.
