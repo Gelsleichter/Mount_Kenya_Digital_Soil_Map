@@ -8,10 +8,10 @@ Welcome to the **Mount Kenya Digital Soil Map** repository! This project focuses
 ---
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Scripts](##Scripts)
-- [Data Description](#data-description)
-- [Contact](#contact)
+- Overview
+- Scripts
+- Data Description
+- Contact
 
 ---
 
@@ -47,6 +47,8 @@ To run the scripts in this repository, you'll need to have R installed on your s
    [Extract_points](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/blob/main/Extract_points.R)
    [Modeling_quantile_predict_maps](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/blob/main/Modeling_quantile_predict_maps.R)
    
+---
+
 ## 📊 Data Description
 
 To predict Soil Organic Carbon (SOC) in the Mount Kenya region the dataset was split into:
@@ -54,6 +56,8 @@ To predict Soil Organic Carbon (SOC) in the Mount Kenya region the dataset was s
 - **Train-CV:** Combined training and validation data used in cross-validation (50 samples).
 - **Validation:** Data for hyperparameter tuning (10 samples).
 - **Test:** Data for final model evaluation (10 samples).
+
+---
 
 ## 📬 Contact
 
