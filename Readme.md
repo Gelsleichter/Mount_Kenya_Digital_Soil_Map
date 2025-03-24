@@ -3,7 +3,7 @@
 ![Mount Kenya](https://upload.wikimedia.org/wikipedia/commons/b/b3/Terek_Valley_Mt_Kenya.jpg)
 *Digital Soil Mapping for Mount Kenya Region*
 
-Welcome to the **Mount Kenya Digital Soil Map** repository! This project focuses on creating a digital soil map for the Mount Kenya region using machine learning techniques to predict Soil Organic Carbon (SOC) levels. The repository contains R scripts for data processing, model training, validation, and visualization of SOC distributions across different datasets.
+Welcome to the **Mount Kenya Digital Soil Map** repository! This [repository](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/) presents the scripts to creatie a digital soil map for the Mount Kenya region using machine learning techniques to predict Soil Organic Carbon (SOC) levels. The [repository](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/) contains R scripts for data processing, model training, validation, and visualization of SOC and map creation.
 
 ---
 
@@ -17,20 +17,20 @@ Welcome to the **Mount Kenya Digital Soil Map** repository! This project focuses
 
 ## 🌟 Overview
 
-This repo contains the scripts to develop a digital soil map for the Mount Kenya region to predict the Soil Organic Carbon (SOC) levels using machine learning. The workflow includes:
+This [repository](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/) contains the scripts to develop a digital soil map for the Mount Kenya region to predict the Soil Organic Carbon (SOC) levels using machine learning. The workflow includes:
 - **Data Preprocessing:** Cleaning and preparing soil data for analysis.
 - **Model Training:** Using cross-validation to train models on training and validation datasets.
 - **Evaluation:** Assessing model performance on test datasets.
 - **Uncertainty:** Assessing Uncertainty with quantile forest with ranger package.
 - **Visualization:** Generating density plots, scatterplots and maps with the SOC spatial distributions.
 
-The scripts in this repository are written in R and JavaScript for [Google Earth Engine (GEE)](https://earthengine.google.com/).
+The scripts in this [repository](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/) are written in R and JavaScript for [Google Earth Engine (GEE)](https://earthengine.google.com/).
 
 ---
 
 ## 🛠️ Scripts
 
-To run the scripts in this repository, you'll need to have R installed on your system. Follow these steps to set up the environment:
+To run the scripts in this [repository](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/), you'll need to have R installed on your system. Follow these steps to set up the environment:
 
 1. **Install R:**
    - Download and install R from [CRAN](https://cran.r-project.org/).
