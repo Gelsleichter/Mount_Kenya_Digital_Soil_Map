@@ -1,6 +1,6 @@
 # Mount Kenya Digital Soil Map 🌍
 
-![Mount Kenya](https://via.placeholder.com/800x200.png?text=Mount+Kenya+Digital+Soil+Map)  
+![Mount Kenya](https://upload.wikimedia.org/wikipedia/commons/b/b3/Terek_Valley_Mt_Kenya.jpg)
 *Digital Soil Mapping for Mount Kenya Region*
 
 Welcome to the **Mount Kenya Digital Soil Map** repository! This project focuses on creating a digital soil map for the Mount Kenya region using machine learning techniques to predict Soil Organic Carbon (SOC) levels. The repository contains R scripts for data processing, model training, validation, and visualization of SOC distributions across different datasets.
