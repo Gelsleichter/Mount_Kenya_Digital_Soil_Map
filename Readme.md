@@ -21,13 +21,14 @@ Welcome to the **Mount Kenya Digital Soil Map** repository! This project focuses
 
 ## 🌟 Overview
 
-This project aims to develop a digital soil map for the Mount Kenya region by predicting Soil Organic Carbon (SOC) levels using machine learning. The workflow includes:
+This repo contains the scripts to develop a digital soil map for the Mount Kenya region to predict the Soil Organic Carbon (SOC) levels using machine learning. The workflow includes:
 - **Data Preprocessing:** Cleaning and preparing soil data for analysis.
 - **Model Training:** Using cross-validation to train models on training and validation datasets.
 - **Evaluation:** Assessing model performance on test datasets.
-- **Visualization:** Generating density plots and scatterplots to analyze SOC distributions and model predictions.
+- **Uncertainty:** Assessing Uncertainty with quantile forest with ranger package.
+- **Visualization:** Generating density plots, scatterplots and maps with the SOC spatial distributions.
 
-The scripts in this repository are written in R and utilize packages like `ggplot2` and `tune` for visualization and model evaluation.
+The scripts in this repository are written in R and JavaScript for [Google Earth Engine (GEE)](https://earthengine.google.com/).
 
 ---
 
@@ -42,14 +43,17 @@ To run the scripts in this repository, you'll need to have R installed on your s
    - For a better development experience, install [RStudio](https://www.rstudio.com/products/rstudio/download/).
 
 3. **Run the GEE script to get the covariates:**
-   Open R or RStudio and run the scrips from the repo:
+   Create an account in [Google Earth Engine (GEE)](https://earthengine.google.com/) and run the following scrip:
+   [Mount_Kenya_covariates_preparation](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/blob/main/Mount_Kenya_covariates_preparation_v5.js)
 
-4. **Install Required R Packages:**
+5. **Install Required R Packages:**
    Open R, preferably RStudio and run the scrips from the repo:
+   [Extract_points](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/blob/main/Extract_points.R)
+   [Modeling_quantile_predict_maps](https://github.com/Gelsleichter/Mount_Kenya_Digital_Soil_Map/blob/main/Modeling_quantile_predict_maps.R)
    
 ## 📊 Data Description
 
-The project uses four datasets to predict Soil Organic Carbon (SOC) levels in the Mount Kenya region:
+To predict Soil Organic Carbon (SOC) in the Mount Kenya region the dataset was split into:
 
 - **Train-CV:** Combined training and validation data used in cross-validation (50 samples).
 - **Validation:** Data for hyperparameter tuning (10 samples).
