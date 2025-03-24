@@ -1,0 +1,18 @@
+Input data (covariates) were adjusted in Google Earth Engine environment
+
+### Data source
+https://developers.google.com/earth-engine/datasets/catalog/NASA_NASADEM_HGT_001
+https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_mTPI 
+https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_CHILI/bands
+https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_landforms
+https://developers.google.com/earth-engine/datasets/catalog/CSP_ERGo_1_0_Global_ALOS_topoDiversity
+https://developers.google.com/earth-engine/datasets/catalog/MERIT_Hydro_v1_0_1/
+https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200
+https://developers.google.com/earth-engine/datasets/catalog/WORLDCLIM_V1_MONTHLY
+https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2 
+
+### Some of the methods adopted
+https://www.usgs.gov/landsat-missions/landsat-soil-adjusted-vegetation-index
+https://developers.google.com/earth-engine/guides/best_practices?hl=en
+https://courses.spatialthoughts.com/end-to-end-gee.html
+https://gis.stackexchange.com/a/256334/178680
