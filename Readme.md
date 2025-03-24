@@ -9,7 +9,7 @@ Welcome to the **Mount Kenya Digital Soil Map** repository! This project focuses
 
 ## 📋 Table of Contents
 - [Overview](#overview)
-- [Scripts](#installation)
+- [Scripts](##Scripts)
 - [Data Description](#data-description)
 - [Contact](#contact)
 
